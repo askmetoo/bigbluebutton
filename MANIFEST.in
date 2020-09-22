@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include bigbluebutton *.css
+recursive-include bigbluebutton *.csv
+recursive-include bigbluebutton *.html
+recursive-include bigbluebutton *.ico
+recursive-include bigbluebutton *.js
+recursive-include bigbluebutton *.json
+recursive-include bigbluebutton *.md
+recursive-include bigbluebutton *.png
+recursive-include bigbluebutton *.py
+recursive-include bigbluebutton *.svg
+recursive-include bigbluebutton *.txt
+recursive-exclude bigbluebutton *.pyc
